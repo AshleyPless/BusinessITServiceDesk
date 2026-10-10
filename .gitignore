@@ -1,0 +1,43 @@
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/appsettings.*.json
+**/secrets.json
+
+# Node.js
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+
+# .NET build files
+**/bin/
+**/obj/
+**/TestResults/
+
+# IDE and local settings
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.user
+*.suo
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local databases and backups
+*.mdf
+*.ldf
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
